@@ -3,6 +3,106 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
 }
+header {
+    background: #f6f6f6;
+}
+.header-title{
+    font-family: 'Lobster', cursive;
+}
+span {
+    color: orangered;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.header-menu {
+    display: flex;
+    align-items: center;
+}
+.header-menu li .inner-menu {
+    display: none;
+    position: absolute;
+    right: 236px;
+    top: 59px;
+    background-color: wheat;
+    padding-left: 0;
+    z-index: 99;
+}
+.header-menu li:hover .inner-menu{
+    display: block;
+    transition: .5s;
+}
+.inner-menu > li {
+    list-style: none;
+    padding: 10px 31px;
+    border-radius: 5px;
+}
+.header-menu > li {
+    list-style: none;
+    padding: 10px 38px;
+    border-radius: 5px;
+}
+li:hover{
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+.inner-menu li:hover .MISBAH-QU{
+    display: block;
+    transition: .5s;
+}
+.MISBAH-QU {
+    display: none;
+    position: absolute;
+    top: -7px;
+    right: 128px;
+    background: white;
+    font-size: 13px;
+    line-height: 3;
+    width: 198px;
+}
+.YEASIN {
+    position: absolute;
+    top: 32px;
+    right: 128px;
+}
+.AL-AMIN {
+    position: absolute;
+    top: 72px;
+    right: 128px;
+}
+.SAIDUL {
+    position: absolute;
+    top: 110px;
+    right: 128px;
+}
+.IMRAN {
+    position: absolute;
+    top: 149px;
+    right: 128px;
+}
+.KALAM {
+    position: absolute;
+    top: 188px;
+    right: 128px;
+}
+.SHARIF {
+    position: absolute;
+    top: 227px;
+    right: 128px;
+}
+.TANJIL {
+    position: absolute;
+    top: 267px;
+    right: 128px;
+}
+.MISBAH-QU li {
+    list-style: none;
+    padding: 4px 0;
+}
+
+/*  */
 main{
     max-width: 900px;
     margin: auto;
