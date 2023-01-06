@@ -6,6 +6,7 @@
 
 header {
     background: #f6f6f6;
+    padding-left: 20px;
 }
 
 .header-title {
@@ -77,6 +78,8 @@ li:hover {
     font-size: 13px;
     line-height: 3;
     width: 198px;
+    padding-left: 0;
+    text-align: center;
     transition: 1s;
     opacity: 0;
     transform: scale(0);
@@ -307,6 +310,12 @@ input[type="email"] {
     background: #FFF4D6;
     padding: 68px 0;
 }
+.update,.logo-content-section {
+    background: url(../images/header_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 footer {
     background: black;
@@ -324,4 +333,10 @@ h4.footer-title {
 p.footer-description {
     color: white;
     font-size: 12px;
+}
+.DonatePlan, .donate-section{
+    background: url(../images/header_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left; 
 }
